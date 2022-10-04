@@ -87,14 +87,14 @@ Type your response:
         item = 2
         wordchosen = random.choice(word)
         hangmanword = list('*' * len(wordchosen))
-        m = len(wordchosen) + 2
-        return "You will be given the length of the word +2 chances to guess the word correctly! Only enter letter\n Your word is {}".format(str(hangmanword))
+        m = len(wordchosen) + 5
+        return "You will be given the length of the word +5 chances to guess the word correctly! Only enter letter\n Your word is {}".format(str(hangmanword))
 
     if user_message == "guess the number":
         item = 3
-        number = random.randint(0, 1000)
+        number = random.randint(0, 100)
         n = 5
-        return "You will be given 5 chances to guess the number correctly."
+        return "You will be given 5 chances to guess the number correctly. Hint: The number lies between 0 and 100."
 
     if item == 1:
         l = ['rock', 'paper', 'scissor']
