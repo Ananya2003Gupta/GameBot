@@ -108,7 +108,7 @@ Type your response:
                 m -= 1
                 respnse = hangman(user_message, m, wordchosen, hangmanword)
                 if "You Won!" in respnse:
-                    m = 0
+                    m = 0                             #resets m to 0 as the user has won the game
                 return respnse
         else:
             return "Enter only character !"
@@ -119,7 +119,10 @@ Type your response:
     if item == 3:
         while (n > 0):
             n -= 1
-            return guesstheno(user_message, n, number)
+            gtnres = guesstheno(user_message, n, number)        
+            if "You Won!" in gtnres:
+                n = 0                                            #resets n to 0 as the user has won the game
+            return gtnres
         if (n == 0):
             item = 0
 
