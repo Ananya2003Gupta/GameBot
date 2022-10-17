@@ -106,7 +106,10 @@ Type your response:
         if (user_message.isalpha() and (len(user_message) == 1)):
             while (m > 0):
                 m -= 1
-                return hangman(user_message, m, wordchosen, hangmanword)
+                respnse = hangman(user_message, m, wordchosen, hangmanword)
+                if "You Won!" in respnse:
+                    m = 0
+                return respnse
         else:
             return "Enter only character !"
 
