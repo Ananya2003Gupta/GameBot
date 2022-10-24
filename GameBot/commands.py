@@ -118,11 +118,16 @@ Type your response:
 
     if item == 3:
         while (n > 0):
-            n -= 1
-            gtnres = guesstheno(user_message, n, number)        
-            if "You Won!" in gtnres:
-                n = 0                                            #resets n to 0 as the user has won the game
-            return gtnres
+            try:
+                user_message = int(user_message)
+            except ValueError:
+                return "Enter only integer number!"
+            else:
+                n -= 1
+                gtnres = guesstheno(user_message, n, number)        
+                if "You Won!" in gtnres:
+                    n = 0                                            #resets n to 0 as the user has won the game
+                return gtnres
         if (n == 0):
             item = 0
 
