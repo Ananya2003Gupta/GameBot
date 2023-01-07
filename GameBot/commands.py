@@ -99,8 +99,12 @@ Type your response:
     if item == 1:
         l = ['rock', 'paper', 'scissors']
         bot_chosen = l[random.randint(0, 2)]
-        item = 0
-        return rockpaperscissors(bot_chosen, user_message)
+        rpsres = rockpaperscissors(bot_chosen, user_message)
+        if rpsres == "You gave wrong input :( Try again" :
+            item = 1
+        else:
+             item = 0
+        return rpsres
 
     if item == 2:
         if (user_message.isalpha() and (len(user_message) == 1)):
