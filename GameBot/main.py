@@ -19,7 +19,7 @@ def start_command(update, context):
 def help_command(update, context):
     update.message.reply_text("""Help menu:
   /start : To start the bot
-  /help  : To Handle the bot
+  /help  : To get help regarding the commands for the bot
   hey,hello,hi or sup  : Salutations to say hi to bot
    game  : To start the game
   """)
