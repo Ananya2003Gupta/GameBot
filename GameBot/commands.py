@@ -32,13 +32,13 @@ def hangman(user_message, m, wordchosen, hangmanword):
     return str(hangmanword)
 
 
-def rockpaperscissor(bot_chosen, user_message):
+def rockpaperscissors(bot_chosen, user_message):
     res = "You win"
-    if user_message in ("rock", "paper", "scissor"):
+    if user_message in ("rock", "paper", "scissors"):
         if user_message == bot_chosen:
             res = "It's a tie"
 
-        elif user_message == "scissor":
+        elif user_message == "scissors":
             if bot_chosen == "rock":
                 res = "You Lost"
 
@@ -47,7 +47,7 @@ def rockpaperscissor(bot_chosen, user_message):
                 res = "You Lost"
 
         else:
-            if bot_chosen == "scissor":
+            if bot_chosen == "scissors":
                 res = "You Lost"
 
         return "{}\n{}".format(bot_chosen, res)
@@ -72,16 +72,16 @@ def responses(input_text):
         return """You can only play the game once!
 To restart the game or play a new game
 Type your response:
-    rock paper scissor
+    rock paper scissors
     hangman 
     guess the number
     """
-    if user_message == "rock paper scissor":
+    if user_message == "rock paper scissors":
         item = 1
         return """Type your response:
     rock
     paper
-    scissor
+    scissors
     """
     if user_message == "hangman":
         item = 2
@@ -97,10 +97,10 @@ Type your response:
         return "You will be given 5 chances to guess the number correctly. Hint: The number lies between 0 and 100."
 
     if item == 1:
-        l = ['rock', 'paper', 'scissor']
+        l = ['rock', 'paper', 'scissors']
         bot_chosen = l[random.randint(0, 2)]
         item = 0
-        return rockpaperscissor(bot_chosen, user_message)
+        return rockpaperscissors(bot_chosen, user_message)
 
     if item == 2:
         if (user_message.isalpha() and (len(user_message) == 1)):
