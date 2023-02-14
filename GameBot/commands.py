@@ -67,15 +67,7 @@ def responses(input_text):
     if user_message.split()[0] in ("hello", "hey", "hi", "sup"):
         return "Hi, I am Gamer Bot.\n Type 'game' to start the new game"
 
-    if user_message == "game":
-        item = 0
-        return """You can only play the game once!
-To restart the game or play a new game
-Type your response:
-    rock paper scissors
-    hangman 
-    guess the number
-    """
+    
     if user_message == "rock paper scissors":
         item = 1
         return """Type your response:
