@@ -22,7 +22,7 @@ def help_command(update, context):
   /start : To start the bot
   /help  : To get help regarding the commands for the bot
   hey,hello,hi or sup  : Salutations to say hi to bot
-  /game  : To start the game
+  /game  : To start playing games
   """)
 
 def game_command(update, context):
