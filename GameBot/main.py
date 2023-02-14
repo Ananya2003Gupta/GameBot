@@ -2,6 +2,7 @@ import os
 from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 import commands as com
 
+# Put your telegram bot token as an environment variable named KEY
 key = os.environ['KEY']
 print("Bot has Started....")
 
