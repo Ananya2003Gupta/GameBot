@@ -8,8 +8,9 @@ or even feel like trying your luck with a thrilling guessing game - Game Bot has
 
 With our easy-to-use interface and engaging gameplay, you'll be entertained for hours on end. 
 
-So, invite your friends and let the games begin! 
-Are you ready to take on the challenge and emerge victorious? Let's play!
+Are you ready to take on the challenge and emerge victorious? 
+
+#### Let's play!
 
 ## Commands:
 
