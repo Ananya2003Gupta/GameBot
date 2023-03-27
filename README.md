@@ -4,7 +4,8 @@
 
 <h2 align="center"> Welcome to Game Bot, the ultimate gaming companion on Telegram! </h2>
 
-<p align="center"> Whether you're in the mood for a classic game of rock paper scissors, or want to test your word skills with a round of hangman, </p>
+<p align="center"> Whether you're in the mood for a classic game of rock paper scissors, </p>
+<p align="center"> or want to test your word skills with a round of hangman, </p>
 <p align="center"> or even feel like trying your luck with a thrilling guessing game - Game Bot has got you covered! </p>
 
 <p align = "center"> With our easy-to-use interface and engaging gameplay, you'll be entertained for hours on end. </p>
