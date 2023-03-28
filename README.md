@@ -1,5 +1,3 @@
-<h1 align="center"> Game Bot </h1>
-
 ![4](https://user-images.githubusercontent.com/90386813/228221842-f3b72e39-974f-4bd3-a831-f5051658cda9.png)
 
 <h2 align="center"> Welcome to Game Bot, the ultimate gaming companion on Telegram! </h2>
