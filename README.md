@@ -1,6 +1,6 @@
 <h1 align="center"> Game Bot </h1>
 
-![Game](https://user-images.githubusercontent.com/90386813/228050694-f91583fe-5b4b-466b-9eaa-43fbd9c6cf25.png)
+![4](https://user-images.githubusercontent.com/90386813/228221842-f3b72e39-974f-4bd3-a831-f5051658cda9.png)
 
 <h2 align="center"> Welcome to Game Bot, the ultimate gaming companion on Telegram! </h2>
 
