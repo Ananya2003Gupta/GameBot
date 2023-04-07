@@ -65,7 +65,7 @@ def responses(input_text):
     user_message = str(input_text).lower()
 
     if user_message.split()[0] in ("hello", "hey", "hi", "sup"):
-        return "Hi, I am Gamer Bot.\n Type 'game' to start the new game"
+        return "Hi, I am Gamer Bot.\n Type '/game' to start the new game"
 
     
     if user_message == "rock paper scissors":
